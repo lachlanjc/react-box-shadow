@@ -1,4 +1,4 @@
-# React <BoxShadow />
+# react-box-shadow
 
 React component for CSS box-shadow
 
