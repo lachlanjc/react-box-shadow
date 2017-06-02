@@ -1,0 +1,33 @@
+{
+  "name": "react-box-shadow",
+  "version": "1.0.0",
+  "description": "React component for CSS box-shadow",
+  "main": "dist/BoxShadow.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "docs": "NODE_ENV=production webpack",
+    "prepublish": "babel src --out-dir dist"
+  },
+  "keywords": [],
+  "author": "Lachlan Campbell",
+  "license": "MIT",
+  "devDependencies": {
+    "axs": "^1.0.6",
+    "axs-ui": "^1.0.4",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "css-box-shadow": "^1.0.0-1",
+    "prop-types": "^15.5.10",
+    "react-dom": "^15.5.4",
+    "react": "^15.5.4"
+  }
+}
