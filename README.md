@@ -5,7 +5,7 @@ React component for CSS box-shadow
 Demo: https://lachlanjc.me/react-box-shadow
 
 ```sh
-npm i react-box-shadow
+npm i react-box-shadow -save
 ```
 
 ```jsx
