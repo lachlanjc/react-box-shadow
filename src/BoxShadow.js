@@ -31,7 +31,7 @@ const BoxShadow = ({
 }
 
 BoxShadow.propTypes = {
-  is: PropTypes.oneOf([PropTypes.string, PropTypes.function]),
+  is: PropTypes.oneOfType([PropTypes.string, PropTypes.function]),
   inset: PropTypes.boolean,
   offsetX: PropTypes.number,
   offsetY: PropTypes.number,
